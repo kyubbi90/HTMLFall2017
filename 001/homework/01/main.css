@@ -1,4 +1,4 @@
-h1, h2{
+h1{
     color: cornflowerblue;
     text-align: center;
     font-size: 40px;
@@ -10,7 +10,6 @@ h2{
     font-size: 35px;
     font-family: Arial, serif;
 }
-
 div{
     background-color: #ac242f;
     width: 585px;
