@@ -2,20 +2,20 @@ h1, h2{
     color: cornflowerblue;
     text-align: center;
     font-size: 40px;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 h2{
     color: darkgreen;
     text-align: center;
     font-size: 35px;
-    font-family: "Arial";
+    font-family: Arial, serif;
 }
 
 div{
     background-color: #ac242f;
-    width: 1200px;
+    width: 585px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 65px;
     margin: 0 auto;
 }
 img{
