@@ -16,6 +16,11 @@ div{
     height: 200px;
     border-radius: 65px;
     margin: 0 auto;
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-family: Arial, serif;
+    text-outline: black 10px;
 }
 img{
     width: 30%;
