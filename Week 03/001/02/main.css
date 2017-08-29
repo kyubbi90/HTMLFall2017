@@ -1,0 +1,10 @@
+img{
+height: 350px;
+border: dashed red 5px;
+}
+.line{
+border-bottom: 2px solid skyblue ;
+}
+a{
+font-size: 30px;
+}
