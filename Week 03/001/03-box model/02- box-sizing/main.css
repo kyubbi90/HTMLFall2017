@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+div{
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+}
+#two{
+    padding:100px;
+}
+#three{
+    box-sizing: border-box;
+    padding: 100px;
+}
