@@ -1,0 +1,9 @@
+div{
+    margin: auto;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    border: groove red 25px;
+    background: 50% top  url("https://upload.wikimedia.org/wikipedia/commons/a/a4/Putin_%28cropped%29.jpg") no-repeat ;
+
+}
