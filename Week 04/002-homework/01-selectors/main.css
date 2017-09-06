@@ -1,0 +1,22 @@
+html{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+}
+div{
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: #ac242f;
+}
+#divid{
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.divclass{
+    background-color: #26a426;
+    border-radius: 25%;
+}
+[href]{
+    border: groove 5px cornflowerblue;
+}
