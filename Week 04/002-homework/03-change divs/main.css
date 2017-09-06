@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+}
+
+div:hover{
+    background-color: cornflowerblue;
+}
+
+div:active{
+    background-color: #12ff27;
+}
+a:focus{
+    background-color: red;
+}
+/*DIVS CANNOT BE FOCUSED*/
