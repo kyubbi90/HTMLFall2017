@@ -1,0 +1,7 @@
+li:nth-child(2){
+    color: blue;
+}
+
+li:nth-child(7){
+    color: firebrick;
+}
