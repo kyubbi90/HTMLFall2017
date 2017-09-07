@@ -1,0 +1,7 @@
+body{
+    margin: 250px;
+}
+p::first-line{
+    color: #26a426;
+    font-family: Courier;
+}
