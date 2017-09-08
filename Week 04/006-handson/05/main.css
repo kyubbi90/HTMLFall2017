@@ -1,0 +1,10 @@
+html{
+    margin: 0 18% ;
+}
+p::first-letter{
+    font-family: "Apple Braille ", serif;];
+    font-size: 70px;
+}
+p::first-line{
+    color: #12ff27;
+}
