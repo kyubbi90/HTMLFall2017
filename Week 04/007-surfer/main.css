@@ -3,15 +3,18 @@ html, body, h1, h2, h3, h4, h5, h6 {
     border: 0;
     margin: 0;
 }
-html{
+
+html {
     background-color: #4c84ff;
 }
+
 body {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     background-color: #0bc95b;
     border: 5px solid black;
 }
+
 img {
     display: block;
     margin: 0 auto;
@@ -19,10 +22,10 @@ img {
     border: 10px ridge gold;
 }
 
-
-#blue{
+#blue {
     color: blue
 }
-#red{
+
+#red {
     color: red;
 }
