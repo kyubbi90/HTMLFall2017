@@ -1,0 +1,28 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+html{
+    background-color: #4c84ff;
+}
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #0bc95b;
+    border: 5px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 10px ridge gold;
+}
+
+
+#blue{
+    color: blue
+}
+#red{
+    color: red;
+}
