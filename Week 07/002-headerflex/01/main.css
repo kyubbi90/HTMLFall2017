@@ -1,0 +1,27 @@
+html, body, header, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+a {
+    display: block;
+    color: #0bc95b;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+img {
+    width: 300px;
+}

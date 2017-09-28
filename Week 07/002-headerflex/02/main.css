@@ -1,0 +1,45 @@
+html, body, header, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 250, 255, 0.79);
+    border-bottom: 1px solid #207f13;
+}
+
+header > div {
+    padding: 10px 30px;
+    font-size: 22px;
+    color: white;
+}
+
+main {
+    background-color: rgba(76, 132, 255, 0.64);
+    color: #229714;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    display: block;
+    color: #0bc95b;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+img {
+    width: 300px;
+}
