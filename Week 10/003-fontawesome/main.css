@@ -1,0 +1,20 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cam{
+    color: #4c84ff;
+    font-size: 500px;
+}
+#cam:hover{
+    color: #a21117;
+}

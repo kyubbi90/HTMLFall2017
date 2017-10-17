@@ -1,0 +1,35 @@
+html, body, header, nav, main, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer {
+    border-radius: 5px;
+}
+
+body {
+    margin: 15px;
+}
+header{
+    height: 50px;
+    background-color: #207f13;
+}
+nav{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-color: #4c84ff;
+}
+main{
+    float: right;
+    width: 75%;
+    height: 300px;
+    background-color: #d56b60;
+}
+footer{
+    clear: both;
+    height: 50px;
+    background-color: #9346a8;
+}
