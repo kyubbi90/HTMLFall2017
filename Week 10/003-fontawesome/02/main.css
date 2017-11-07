@@ -1,11 +1,12 @@
-nav{
+nav {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
-nav > a{
+
+nav > a {
     font-size: 2rem;
     width: 15vw;
     height: 5vh;
@@ -20,6 +21,7 @@ nav > a{
     color: #000000;
 
 }
-nav > a:hover{
+
+nav > a:hover {
     background-color: blue;
 }
