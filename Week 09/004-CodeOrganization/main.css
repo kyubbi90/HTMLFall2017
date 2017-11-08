@@ -1,28 +1,42 @@
-/* Bad */
+html, body {
+    border: 0;
+    margin: 0;
+
+}
+/* Bad
 header nav ul li a {...}
 
-/* Good */
+/* Good
 .primary-link {...}
 
-/* Bad */
+/* Bad
 button strong span {...}
 button strong span .callout {...}
 
 /* Good */
-button span {...}
-button .callout {...}
-/* Bad */
+button{
+    top: ;
+    position: fixed;
+    height: 20px;
+    width: 100px;
+    background-color: blue;
+}
+button span {
+    margin: 0 auto;
+}
+/* Bad
 #container header nav {...}
 
-/* Good */
+/* Good
 .primary-nav {...}
 
-/* Bad */
+/* Bad *
 article.feat-post {...}
 
-/* Good */
 .feat-post {...}
-/* Bad */
+*/
+/* Good
+/* Bad
 .news {
     background: #eee;
     border-radius: 5px;
@@ -34,14 +48,17 @@ article.feat-post {...}
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
 }
 
-/* Good */
+/* Good
 .news,
 .social {
     background: #eee;
     border-radius: 5px;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
-}
+}*/
 
+div{
+    margin: 40px;
+}
 /* Even Better */
 .modal {
     background: #eee;
