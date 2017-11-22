@@ -18,7 +18,7 @@ header {
     align-items: center;
     font-family: Monaco, sans-serif;
     font-size: 50px;
-    color: #d9d9d9;
+    color: #b4b4b4;
     text-shadow: 5px 5px black;
 }
 
@@ -26,17 +26,28 @@ span {
     display: flex;
     justify-content: flex-end;
 }
-button{
-    background-color: #3f5e88;
-    border-radius: 20%;
-    border: 1px solid #f4f4f4;
-    width: 45px;
-    height: 20px;
-}
 
 .textblock {
     margin: 45px 310px;
     font-size: 18px;
     font-family: Monaco, sans-serif;
-    color: #939393;
+    color: #777777;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Monaco, sans-serif;
+    font-size: 13px;
+}
+
+input {
+    background-color: #3f5e88;
+    font-family: "Apple Braille", serif;
+    color: rgba(0, 0, 0, 0.98);
+}
+
+label {
+    color: #777777;
+    text-shadow: 3px 3px black
 }
