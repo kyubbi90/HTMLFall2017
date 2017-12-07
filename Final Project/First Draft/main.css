@@ -10,11 +10,11 @@ html, body {
 
 body {
     height: 100vh;
-
     background-color: #3e3b3d;;
 }
 
 header {
+    text-shadow: #0b7739 3px 3px;
     display: flex;
     justify-content: center;
     align-items: center;
