@@ -5,21 +5,22 @@ html, body {
     font: inherit;
     box-sizing: border-box;
     border-radius: 0;
+    font-family: Futura, sans-serif;
 }
 
 body {
     height: 100vh;
-    background: radial-gradient(#3f5e88, #3b3b3b)
+
+    background-color: #3e3b3d;;
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Monaco, sans-serif;
     font-size: 50px;
-    color: #b4b4b4;
-    text-shadow: 5px 5px black;
+    color: #000000;
+    margin: 1%;
 }
 
 span {
@@ -28,48 +29,40 @@ span {
 }
 
 .textblock {
-    margin: 45px 310px;
+    margin: 30px 210px;
     font-size: 18px;
-    font-family: Monaco, sans-serif;
-    color: #777777;
+    color: #bcbcbc;
 }
 
-.container {
-    display: flex;
-    justify-content: flex-end;
-    font-family: Monaco, sans-serif;
-    font-size: 13px;
+ul {
+    background-color: #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-input {
-    background-color: #3f5e88;
-    font-family: "Apple Braille", serif;
-    color: rgba(0, 0, 0, 0.98);
+li {
+    float: left;
 }
 
-label {
-    color: #777777;
-    text-shadow: 3px 3px black
-}
-h2{
-    color: inherit;
-    font-family: "Apple Braille", serif;
-}
-
-ul  {
-    font-family: Monaco, sans-serif;
+li a {
+    width: 150px;
     display: block;
+    color: #000000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 
+li a:link {
+    background-color: #215c02;
 }
-a:link{
-    color: #26a426;
+
+li a:hover {
+    background-color: #bcbcbc;
 }
-a:visited{
-    color: #ac1626;
-}
-a:hover{
-    color: cornflowerblue;
-}
-a:active{
-    color: gold;
+
+li a:active {
+    background-color: #162d18;
 }
